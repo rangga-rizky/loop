@@ -19,11 +19,8 @@ io.on('connection', function (socket) {
   socket.broadcast.emit('user connected');
 });*/
 
-http.listen(0, '0.0.0.0', () => {
-  console.log('Node.js app is running...');
-});
 
-/*
-http.listen(3000, function(){
+
+http.listen(5000, function(){
   console.log('listening on *:3000');
-});*/
+});
